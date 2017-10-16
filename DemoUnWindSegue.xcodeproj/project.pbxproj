@@ -14,6 +14,7 @@
 		3FFF99BF1F57B30700E7D217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF99BD1F57B30700E7D217 /* LaunchScreen.storyboard */; };
 		3FFF99CA1F57B30700E7D217 /* DemoUnWindSegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF99C91F57B30700E7D217 /* DemoUnWindSegueTests.swift */; };
 		3FFF99D51F57B30700E7D217 /* DemoUnWindSegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF99D41F57B30700E7D217 /* DemoUnWindSegueUITests.swift */; };
+		3FFF99E51F57B35100E7D217 /* DemoTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF99E41F57B35100E7D217 /* DemoTableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3FFF99D01F57B30700E7D217 /* DemoUnWindSegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUnWindSegueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFF99D41F57B30700E7D217 /* DemoUnWindSegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUnWindSegueUITests.swift; sourceTree = "<group>"; };
 		3FFF99D61F57B30700E7D217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFF99E41F57B35100E7D217 /* DemoTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F60C9561F903BAA0052AB11 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		3FFF99A81F57B30700E7D217 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +108,9 @@
 			children = (
 				3FFF99B41F57B30700E7D217 /* AppDelegate.swift */,
 				3FFF99B61F57B30700E7D217 /* ViewController.swift */,
+				3F60C9561F903BAA0052AB11 /* New Group */,
 				3FFF99B81F57B30700E7D217 /* Main.storyboard */,
+				3FFF99E41F57B35100E7D217 /* DemoTableVC.swift */,
 				3FFF99BB1F57B30700E7D217 /* Assets.xcassets */,
 				3FFF99BD1F57B30700E7D217 /* LaunchScreen.storyboard */,
 				3FFF99C01F57B30700E7D217 /* Info.plist */,
@@ -257,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FFF99B71F57B30700E7D217 /* ViewController.swift in Sources */,
+				3FFF99E51F57B35100E7D217 /* DemoTableVC.swift in Sources */,
 				3FFF99B51F57B30700E7D217 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
